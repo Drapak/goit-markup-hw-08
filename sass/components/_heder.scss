@@ -8,11 +8,6 @@
     letter-spacing: 0.02em;
 }
 
-.mini-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .header__logo {
     display: inline-block;
     padding: 16px 0;
@@ -296,7 +291,7 @@
 }
 
 @media screen and (min-width: $desktop-width) {
-    .mini-header {
+    .header__logo {
         margin-right: 93px;
     }
 

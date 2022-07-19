@@ -40,7 +40,7 @@
     height: 400px;
     max-width: 1600px;
     background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)),
-        url(/images/bg_mob.jpg);
+        url(../images/bg_mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,7 +52,7 @@
 (min-resolution: 2dppx) {
     .overlay {
         background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)),
-            url(/images/bg_mob@2x.jpg);
+            url(../images/bg_mob@2x.jpg);
     }
 }
 
@@ -65,7 +65,7 @@
 @media screen and (min-width: $tablet-width) {
     .overlay {
         background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)),
-            url(/images/bg_tabl.jpg);
+            url(../images/bg_tabl.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -76,7 +76,7 @@
             background-image: linear-gradient(to top,
                     var(--hero-overlay-color),
                     var(--hero-overlay-color)),
-                url(/images/bg_tabl@2x.jpg);
+                url(../images/bg_tabl@2x.jpg);
         }
     }
 }
@@ -97,7 +97,7 @@
 
     .overlay {
         background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)),
-            url(/images/bg_desktop.jpg);
+            url(../images/bg_desktop.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -108,7 +108,7 @@
             background-image: linear-gradient(to top,
                     var(--hero-overlay-color),
                     var(--hero-overlay-color)),
-                url(/images/bg_desktop@2x.jpg);
+                url(../images/bg_desktop@2x.jpg);
         }
     }
 }

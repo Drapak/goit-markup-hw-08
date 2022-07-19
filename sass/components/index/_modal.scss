@@ -72,15 +72,6 @@
         &:not(:last-child) {
             margin-top: 10px;
         }
-
-        &:hover .form__input,
-        &:hover .form__comment {
-            border-color: var(--accent-text-color--);
-        }
-
-        &:hover .form__input-icon {
-            fill: var(--accent-text-color--);
-        }
     }
 
     &__input-wrapper {
@@ -127,10 +118,21 @@
         }
 
         &:focus {
-            border-color: var(---accent-text-color--);
+            border-color: var(--accent-text-color--);
         }
     }
 }
+        .form__input:hover,
+        .form__comment:hover,
+                .form__input:focus,
+                .form__comment:focus {
+            border-color: var(--accent-text-color--);
+        }
+    
+      .form .form__input-icon:hover,
+       .form .form__input-icon:focus {
+           color: var(--accent-text-color--);
+        }
 
 .agreement {
     position: relative;
@@ -139,14 +141,14 @@
     align-items: center;
     margin-top: 20px;
     font-size: 12px;
-    line-height: 1.17;
+    line-height: 1.16;
 }
 .chek-text {
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #757575;
-    display: flex;
+    color: var(--secondary-text-color--);
+    display:inline-block ;
     align-items: center;
 }
 .agreement__link {
@@ -165,7 +167,7 @@
     height: 15px;
     margin-right: 8px;
     border: 2px solid #212121;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     border-radius: 2px;
