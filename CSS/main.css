@@ -1,7 +1,7 @@
 :root {
   --primary-text-color--: #212121;
   --primary-bg-color--: #FFFFFF;
-  --hero-overlay-color: rgba(47, 48, 58, 0.4);
+  --hero-overlay-color--: rgba(47, 48, 58, 0.4);
   --info-foot-color--: rgba(255, 255, 255, 0.6);
   --accent-text-color--: #2196F3;
   --secondary-text-color--: #757575;
@@ -646,7 +646,7 @@ img {
 .hero {
   padding: 118px 0;
   text-align: center;
-  background-color: var(--third-bg-color--);
+  background-color: rgb(196, 196, 196);
   letter-spacing: 0.06em;
   margin-left: auto;
   margin-right: auto;
@@ -677,10 +677,7 @@ img {
 }
 
 .overlay {
-  width: 100%;
-  height: 400px;
-  max-width: 1600px;
-  background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/bg_mob.jpg);
+  background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/header_mob1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -688,7 +685,7 @@ img {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/bg_mob@2x.jpg);
+    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/header_mob2x.jpg);
   }
 }
 @media screen and (min-width: 480px) {
@@ -698,12 +695,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .overlay {
-    background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)), url(../images/bg_tabl.jpg);
+    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/herotab1x.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)), url(../images/bg_tabl@2x.jpg);
+    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/herotab2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -718,12 +715,12 @@ img {
     line-height: 1.36;
   }
   .overlay {
-    background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)), url(../images/bg_desktop.jpg);
+    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/bg_desktop.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)), url(../images/bg_desktop@2x.jpg);
+    background-image: linear-gradient(to top, var(--hero-overlay-color--), var(--hero-overlay-color--)), url(../images/bg_desktop@2x.jpg);
   }
 }
 .company {
