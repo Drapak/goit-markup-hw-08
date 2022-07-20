@@ -158,6 +158,12 @@ img {
   letter-spacing: 0.02em;
 }
 
+.mini-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header__logo {
   display: inline-block;
   padding: 16px 0;
@@ -1057,8 +1063,8 @@ img {
   border-color: var(--accent-text-color--);
 }
 
-.form .form__input-icon:hover,
-.form .form__input-icon:focus {
+.form__input:hover ~ .form__input-icon,
+.form__input:focus ~ .form__input-icon {
   color: var(--accent-text-color--);
 }
 

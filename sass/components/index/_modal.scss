@@ -129,8 +129,9 @@
             border-color: var(--accent-text-color--);
         }
     
-      .form .form__input-icon:hover,
-       .form .form__input-icon:focus {
+           .form__input:hover ~ .form__input-icon,
+           .form__input:focus ~.form__input-icon
+       {
            color: var(--accent-text-color--);
         }
 
